@@ -1,0 +1,52 @@
+[
+  {
+    "href": "https://www.willbe.blue",
+    "label": "Co je Ingress?",
+    "icon": "smartphone"
+  },
+  {
+    "href": "https://t.me/joinchat/DZtWl0GcK9kzm64QqNFxjw",
+    "label": "Telegram pro začínající",
+    "icon": "send"
+  },
+  {
+    "href": "mailto:czechresist@gmail.com",
+    "label": "czechresist@gmail.com",
+    "icon": "mail"
+  },
+  {
+    "href": "https://res.blue",
+    "label": "Resistance komunita",
+    "icon": "users"
+  },
+  {
+    "href": "https://res.blue/group/czech-resistance",
+    "label": "Visitors group for foreigners",
+    "icon": "compass"
+  },
+  {
+    "href": "https://t.me/CRNNoznameni",
+    "label": "Informační telegram",
+    "icon": "bell"
+  },
+  {
+    "href": "https://www.facebook.com/IngressCzechResistance",
+    "label": "Facebook",
+    "icon": "facebook"
+  },
+  {
+    "href": "https://www.instagram.com/czechresistancecrnn/",
+    "label": "Instagram",
+    "icon": "instagram"
+  },
+  {
+    "href": "https://twitter.com/czechres_crnn",
+    "label": "Twitter",
+    "icon": "twitter"
+  },
+  {
+    "href": "https://youtube.com/channel/UC4ZDXbW5Mt3ZEE0SOlZw-GA",
+    "label": "YouTube",
+    "icon": "youtube"
+  }
+]

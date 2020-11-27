@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.logo {
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.logo-half {
+    background-image: url("../img/logo-half.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right;
+}
+
+#link-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#link-list a {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
