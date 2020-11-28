@@ -1,7 +1,21 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Exo+2);
+
+@font-face {
+    font-family: 'Airborne-II-Pilot';
+    src:url('../fonts/Airborne-II-Pilot.ttf.woff') format('woff'),
+    url('../fonts/Airborne-II-Pilot.ttf.svg#Airborne-II-Pilot') format('svg'),
+    url('../fonts/Airborne-II-Pilot.ttf.eot'),
+    url('../fonts/Airborne-II-Pilot.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: Airborne-II-Pilot, sans-serif !important;
+}
 
 body {
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Exo 2', sans-serif !important;
 }
 
 .logo {
@@ -25,7 +39,7 @@ body {
 }
 
 #link-list a {
-    font-weight: bold;
+    font-weight: normal;
     font-size: 1.2em;
 }
 
