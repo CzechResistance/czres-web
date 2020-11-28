@@ -5,10 +5,10 @@ function render(props) {
 }
 
 feather.replace();
-const url = 'https://gist.githubusercontent.com/Bollorock/0044f05574db406d299e2f6f8d69b628/raw/links.json';
+const url = 'https://raw.githubusercontent.com/Bollorock/czres/master/links.json';
 
 $.getJSON(url, async function (items) {
-    const itemTpl = $('script[data-template="list-item"]').text().split(/\$\{(.+?)\}/g);
+    const itemTpl = $('script[data-template="list-item"]').text().split(/\${(.+?)\}/g);
 
     $('#link-list').append(items.map(function (item) {
         return itemTpl.map(render(item)).join('');
