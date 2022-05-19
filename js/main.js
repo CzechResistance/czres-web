@@ -5,7 +5,7 @@ function render(props) {
 }
 
 feather.replace();
-const url = 'https://raw.githubusercontent.com/Bollorock/czres/master/links.json';
+const url = 'https://raw.githubusercontent.com/CzechResistance/czres-web/master/links.json';
 
 $.getJSON(url, async function (items) {
     const itemTpl = $('script[data-template="list-item"]').text().split(/\${(.+?)\}/g);
